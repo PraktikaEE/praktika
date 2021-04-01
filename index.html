@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Loan Calculator</title>
+        <link rel="stylesheet" href="app.css"/>
+    </head>
+    <body>
+        <section className="section">
+            <div className="container">
+            <div class="row">
+
+                <h1 className="calculator-title">Kuumaksete kalkulaator</h1>
+                <div>
+                    <label class="service-title">Teenus:</label>
+                </div>
+
+                <div class="column">
+                  <div class="checkbox-card">
+                    <label class="checkbox-container">
+                      <input class="checkbox" type="checkbox" checked="checked"/>
+                      <span class="checkmark"></span>
+                    </label>
+                    <p>Päikesepaneelid</p>
+                  </div>
+                </div>
+
+                <div class="column">
+                    <div class="checkbox-card">
+                        <label class="checkbox-container">
+                        <input type="checkbox"/>
+                        <span class="checkmark"></span>
+                        </label>
+                        <p>Soojuspump</p>
+                    </div>
+                </div>
+      
+                <div class="column">
+                  <div class="checkbox-card">
+                    <label class="checkbox-container">
+                      <input type="checkbox"/>
+                      <span class="checkmark"></span>
+                    </label>
+                    <p>Elektritööd või gaasitööd</p>
+                  </div>
+                </div>
+
+                <div class="column">
+                  <div class="checkbox-card">
+                    <label class="checkbox-container">
+                      <input type="checkbox"/>
+                      <span class="checkmark"></span>
+                    </label>
+                    <p>Off-Grid võrguvaba elekter</p>
+                  </div>
+                </div>
+
+                <div class="column">
+                  <div class="checkbox-card">
+                    <label class="checkbox-container">
+                      <input type="checkbox"/>
+                      <span class="checkmark"></span>
+                    </label>
+                    <p>Elektriautode laadimislahendused</p>
+                  </div>
+                </div>
+            </div>
+            <hr/>
+
+            <div class="loan-container">
+              <div className="columns">
+                <div className="column is-three-quarters">
+                  <div className="card">
+                    <div className="card-content">
+                    <form id="loan-form">
+                      <div class="level">
+      
+                        <div class="level-left is-marginless">
+                          <div className="level-item">
+                            <p className="number"></p>
+                            Summa:
+                          </div>
+                        </div>
+      
+                        <div className="level-right">
+                          <div className="level-item">
+                            <div className="field">
+                              <div className="range-slider">
+                                <span id="rs-bullet" class="rs-label"></span>
+                                <input class="rs-range" id="rs-range-line" type="range" min="300" max="25000" value="300"/>
+                                <div class="box-minmax">
+                                    <span>300€</span><span>25 000€</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="hr2"/>
+      
+                      <div class="level2">
+                        <div className="level-left is-marginless">
+                          <div className="level-item">
+                            <p className="number"></p>
+                            Periood:*
+                          </div>
+                        </div>
+      
+                        <div className="level-right">
+                          <div className="level-item">
+                            <div className="field">
+                              <div className="control has-icons-left">
+                                <select class="input2" id="years" type="number" onchange="showPeriod()">
+                                    <option>Select:</option>
+                                    <option value="6">6 kuud</option>
+                                    <option value="12">12 kuud</option>
+                                    <option value="18">18 kuud</option>
+                                    <option value="24">24 kuud</option>
+                                    <option value="30">30 kuud</option>
+                                    <option value="36">36 kuud</option>
+                                    <option value="42">42 kuud</option>
+                                    <option value="48">48 kuud</option>
+                                    <option value="54">54 kuud</option>
+                                    <option value="60" selected="selected">60 kuud</option>
+                                    <option value="66">66 kuud</option>
+                                    <option value="72">72 kuud</option>
+                                    <option value="78">78 kuud</option>
+                                    <option value="84">84 kuud</option>
+                                    <option value="90">90 kuud</option>
+                                    <option value="96">96 kuud</option>
+                                    <option value="102">102 kuud</option>
+                                    <option value="108">108 kuud</option>
+                                    <option value="114">114 kuud</option>
+                                    <option value="120">120 kuud</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="level3">
+                        <div className="level-left is-marginless">
+                          <div className="level-item">
+                            <p className="number"></p>
+                            Sissemakse(eur):*
+                          </div>
+                        </div>
+      
+                        <div className="level-right">
+                          <div className="level-item">
+                            <div className="field">
+                              <div className="control has-icons-right">
+                                <input class="input3" id="downPayment" type="number" onchange="projectPayment()"/>
+                                <span className="icon is-small is-right">
+                                  <i className="fa fa-percentage"></i>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+      
+                      <div class="submit">
+                        <button class="button">Esitan taotluse ></button>
+                      </div>
+                    </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </section>
+
+            <div class="results">
+                <table>
+                    <tr>
+                        <td>Intress <span class="interest-span"><input class="interest-input" id="interestInput" value="7.9"></input>%</span></td>
+                    </tr>
+                    <tr>
+                        <td>Lepingutasu <span class="contract-span"><input class="contract-input" id="contractInput" value="50"></input>€</span></td>
+                    </tr>
+                    <tr>
+                        <td>Igakuine haldustasu <span class="management-span"><input class="management-input" id="managementInput" value="1"></input>€</span></td>
+                    </tr>
+                    <tr>
+                        <td>Periood <span id="period"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Projekti maksumus <span id="project"></span></td>
+                    </tr>
+                    <tr>
+                        <th class="payment-monthly">Kuumakse <span id="monthlyPayment"></span></th>
+                    </tr>
+                </table>
+            </div>
+    </body>
+    <script src="app.js"></script>
+</html>
