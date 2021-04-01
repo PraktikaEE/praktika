@@ -35,6 +35,7 @@ html{
     margin-top: 50px;
     padding-top: 5px;
   }
+
   .row:after {
     content: "";
     display: table;
@@ -48,8 +49,8 @@ html{
 
   .column {
     float: left;
-    width: 18%;
-    padding-left: 60px;
+    width: 19%;
+    padding-left: 37px;
     padding-top: 25px;
     align-items: center;
     justify-content: center;
@@ -428,3 +429,787 @@ html{
     cursor: pointer;
     outline: none;
     }
+
+
+    @media screen and (max-width: 1376px) {
+      .row {
+        margin-left: 110px;
+      }
+
+      .column{
+        width: 19%;
+      }
+
+      .level{
+        margin-left: -170px;
+      }
+
+      .hr2{
+        margin-left: -190px;
+      }
+
+      .level2 {
+        margin-left: -170px;
+      }
+
+      .level3{
+        margin-left: 70px;
+      }
+
+      .button{
+        margin-left: 200px;
+      }
+
+      
+    }
+
+    @media screen and (max-width: 1360px) {
+      .checkbox-card{
+        width: 180px;
+      }
+    }
+
+    @media screen and (max-width: 1331px) {
+      .hr2{
+        margin-left: -235px;
+      }
+
+      .level{
+        margin-left: -250px;
+      }
+
+      .level2{
+        margin-left: -240px;
+      }
+
+      .level3{
+        margin-left: 20px;
+      }
+
+      .row{
+        margin-left: 70px;
+      }
+
+      hr{
+        margin-left: 100px;
+      }
+
+      .button {
+        margin-left: 140px;
+      }
+    }
+
+    @media screen and (max-width: 1236px) {
+      .checkbox-card{
+        width: 160px;
+        padding: 15px;
+      }
+
+      .level{
+        margin-left: -270px;
+      }
+
+      .level2{
+        margin-left: -260px;
+      }
+
+      .level3{
+        margin-left: -15px;
+      }
+
+      .hr2{
+        margin-left: -260px;
+        width: 145%;
+      }
+
+      h1{
+        margin-left: 350px;
+      }
+
+      .button{
+        margin-left: 100px;
+      }
+    }
+
+    @media screen and (max-width: 1222px) {
+      .results table{
+        width: 30%;
+      }
+
+      .interest-input{
+        margin-left: 180px;
+      }
+
+      .contract-input{
+        margin-left: 145px;
+      }
+
+      .management-input{
+        margin-left: 100px;
+      }
+
+      #period{
+        margin-left: 150px;
+      }
+
+      #project{
+        margin-left: 95px;
+      }
+    }
+
+    @media screen and (max-width: 1133px) {
+      .rs-range{
+        width: 380px;
+        margin-left: 50px;
+      }
+
+      .rs-label{
+        margin-left: 5px;
+        margin-right: 50px;
+      }
+
+      .box-minmax{
+        width: 380px;
+        margin-left: 50px;
+      }  
+      
+      .hr2{
+        width: 115%;
+        margin-left: -220px;
+      }
+
+      .level2{
+        margin-left: -230px;
+      }
+
+      .level3{
+        margin-left: -30px;
+      }
+
+      .input2{
+        width: 190px;
+      }
+
+      .input3{
+        width: 190px;
+      }
+    }
+
+    @media screen and (max-width: 1225px) {
+      #monthlyPayment{
+        margin-left: 190px;
+      }
+    }
+
+    @media screen and (max-width: 1222px) {
+      #monthlyPayment{
+        margin-left: 150px;
+      }
+    }
+
+    @media screen and (max-width: 1172px) {
+      #monthlyPayment{
+        margin-left: 140px;
+      }
+    }
+
+    @media screen and (max-width: 1137px) {
+      #monthlyPayment{
+        margin-left: 135px;
+      }
+    }
+
+    @media screen and (max-width: 1121px) {
+      #monthlyPayment{
+        margin-left: 130px;
+      }
+    }
+
+    @media screen and (max-width: 1103px) {
+      #monthlyPayment{
+        margin-left: 120px;
+      }
+
+      .row{
+        margin-left: 50px;
+      }
+
+      .button{
+        margin-left: 60px;
+      }
+    }
+
+    @media screen and (max-width: 1090px) {
+      #project{
+        margin-left: 75px;
+      }
+    }
+
+    @media screen and (max-width: 1077px) {
+      #period{
+        margin-left: 140px;
+      }
+
+      .checkbox-card{
+        width: 150px;
+      }
+    }
+
+    @media screen and (max-width: 1071px) {
+      #monthlyPayment{
+        margin-left: 100px;
+      }
+    }
+
+    @media screen and (max-width: 1050px) {
+      #period{
+        margin-left: 130px;
+      }
+    }
+
+    @media screen and (max-width: 1043px) {
+      .results table{
+        margin-top: -380px;
+        margin-left: -300px;
+        width: 70%;
+      }
+
+      h1{
+        margin-left: 280px;
+      }
+
+      .row{
+        height: 980px;
+      }
+
+      .column{
+        margin-left: -3px;
+      }
+
+      hr{
+        margin-top: -720px;
+      }
+
+      .level-left{
+        margin-left: 30px;
+      }
+
+      .rs-range{
+        width: 100%;
+        margin-left: 100px;
+      }
+
+      .box-minmax{
+        width: 100%;
+        margin-left: 100px;
+      }
+
+      .rs-label{
+        margin-left: 90px;
+      }
+
+      .hr2{
+        width: 195%;
+        margin-left: -170px;
+        margin-top: 20px;
+      }
+
+      .level2{
+        margin-left: -165px;
+      }
+
+      .input2{
+        width: 250px;
+      }
+
+      .level3{
+        margin-left: 140px;
+        width: 150px;
+      }
+
+      .input3{
+        width: 250px;
+      }
+
+      .button{
+        margin-top: 350px;
+        margin-left: 10px;
+      }
+
+      #monthlyPayment {
+        margin-left: 480px;
+      }
+
+      #interestInput{
+        margin-left: 570px;
+      }
+
+      #contractInput{
+        margin-left: 535px;
+      }
+
+      #managementInput{
+        margin-left: 490px;
+      }
+
+      #period{
+        margin-left: 530px;
+      }
+
+      #project{
+        margin-left: 460px;
+      }
+    }
+
+    @media screen and (max-width: 1006px) {
+      .checkbox-card{
+        width: 150px;
+      }
+
+      .column{
+        width: 30%;
+        margin-left: 15px;
+      }
+
+      .row{
+        height: 1100px;
+        width: 70%;
+        margin-left: 90px;
+      }
+
+      h1{
+        margin-left: 210px;
+      }
+
+      hr{
+        margin-top: -700px;
+        width: 60%;
+        margin-left: 140px;
+      }
+
+      .level-left{
+        margin-left: 70px;
+      }
+
+      .rs-range{
+        margin-left: 100px;
+      }
+
+      .rs-label{
+        margin-left: 80px;
+      }
+
+      .box-minmax{
+        margin-left: 100px;
+      }
+
+      .hr2{
+        margin-left: -180px;
+        width: 218%;
+      }
+
+      .level2{
+        margin-left: -170px;
+      }
+
+      .level3{
+        margin-left: 100px;
+      }
+
+      .button{
+        margin-top: 340px;
+        margin-left: -20px;
+      }
+
+      #monthlyPayment {
+        margin-left: 460px;
+      }
+
+      #interestInput{
+        margin-left: 550px;
+      }
+
+      #contractInput{
+        margin-left: 515px;
+      }
+
+      #managementInput{
+        margin-left: 470px;
+      }
+
+      #period{
+        margin-left: 510px;
+      }
+
+      #project{
+        margin-left: 440px;
+      }
+    }
+
+    @media screen and (max-width: 976px) {
+      .column{
+        width: 45%;
+        margin-left: 33px;
+      }
+
+      .row{
+        height: 1240px;
+        width: 70%;
+      }
+
+      .results table{
+        width: 60%;
+        margin-right: 250px;
+      }
+
+      #monthlyPayment {
+        margin-left: 325px;
+      }
+
+      #interestInput{
+        margin-left: 390px;
+      }
+
+      #contractInput{
+        margin-left: 350px;
+      }
+
+      #managementInput{
+        margin-left: 300px;
+      }
+
+      #period{
+        margin-left: 350px;
+      }
+
+      #project{
+        margin-left: 285px;
+      }
+     
+    }
+
+    @media screen and (max-width: 957px) {
+      .row{
+        width: 70%;
+        height: 1400px;
+        margin-left: 150px;
+      }
+
+      .column{
+        margin-left: 100px;
+      }
+
+      h1{
+        margin-left: 200px;
+      }
+
+      .level-left{
+        margin-left: 110px;
+      }
+
+      .service-title{
+        margin-left: 310px;
+      }
+
+      .checkbox-card{
+        width: 400px;
+        height: 90px;
+      }
+
+      hr{
+        width: 60%;
+        margin-left: 200px;
+      }
+
+      .rs-range{
+        width: 70%;
+        margin-left: 220px;
+      }
+
+      .box-minmax{
+        width: 70%;
+        margin-left: 220px;
+      }
+
+      .rs-label{
+        margin-left: 140px;
+      }
+
+      .hr2{
+        margin-left: -140px;
+        width: 180%;
+      }
+
+      .level2{
+        margin-left: -140px;
+      }
+
+      .level3{
+        margin-left: 150px;
+      }
+
+      .results table {
+        margin-right: 180px;
+      }
+
+      .button{
+        margin-left: 20px;
+      }
+    }
+
+    @media screen and (max-width: 885px) {
+      .results table{
+        margin-right: 140px;
+      }
+
+      .rs-range{
+        margin-left: 200px;
+      }
+
+      .box-minmax{
+        margin-left: 200px;
+      }
+
+      #monthlyPayment {
+        margin-left: 280px;
+      }
+
+      #interestInput{
+        margin-left: 350px;
+      }
+
+      #contractInput{
+        margin-left: 310px;
+      }
+
+      #managementInput{
+        margin-left: 260px;
+      }
+
+      #period{
+        margin-left: 310px;
+      }
+
+      #project{
+        margin-left: 245px;
+      }
+
+      .level2{
+        margin-left: -160px;
+      }
+
+      .level3{
+        margin-left: 110px;
+      }
+    }
+
+    @media screen and (max-width: 826px) {
+      .row{
+        width: 55%;
+        margin-left: 200px;
+      }
+
+      .service-title{
+        margin-left: 200px;
+      }
+
+      h1{
+        margin-left: 80px;
+      }
+
+      .checkbox-card{
+        width: 240px;
+        margin-left: -30px;
+      }
+
+      hr{
+        width: 50%;
+        margin-left: 220px;
+      }
+
+      .level-left{
+        margin-left: 150px;
+      }
+
+      .rs-range{
+        width: 50%;
+      }
+
+      .box-minmax{
+        width: 50%;
+      }
+
+      .hr2{
+        width: 160%;
+        margin-left: -120px;
+      }
+
+      .level2{
+        margin-left: -120px;
+      }
+
+      .level3{
+        margin-left: 90px;
+      }
+
+      .input2{
+        width: 170px;
+      }
+
+      .input3{
+        width: 170px;
+      }
+
+      .results table{
+        width: 50%;
+        margin-right: 175px;
+      }
+
+      #monthlyPayment {
+        margin-left: 170px;
+      }
+
+      #interestInput{
+        margin-left: 250px;
+      }
+
+      #contractInput{
+        margin-left: 210px;
+      }
+
+      #managementInput{
+        margin-left: 160px;
+      }
+
+      #period{
+        margin-left: 210px;
+      }
+
+      #project{
+        margin-left: 145px;
+      }
+
+      .button{
+        margin-left: -30px;
+      }
+    }
+
+    @media screen and (max-width: 772px) {
+      .row{
+        width: 40%;
+        padding: 20px;
+        height: 1500px;
+      }
+
+      .checkbox-card{
+        margin-left: -120px;
+      }
+
+      .service-title{
+        margin-left: 110px;
+      }
+
+      h1{
+        margin-left: 5px;
+        font-size: 23px;
+      }
+
+      hr{
+        width: 35%;
+        margin-top: -790px;
+      }
+
+      .rs-range{
+        width: 40%;
+        margin-left: 200px;
+      }
+
+      .rs-label{
+        margin-left: 130px;
+        width: 50px;
+        position: relative;
+      }
+
+      .box-minmax{
+        width: 40%;
+        margin-left: 170px;
+      }
+
+      .hr2{
+        width: 240%;
+      }
+
+      .level2{
+        margin-left: -80px;
+      }
+
+      .level3{
+        margin-top: 40px;
+        margin-left: -80px;
+      }
+
+      #monthlyPayment {
+        margin-left: 50px;
+      }
+
+      #interestInput{
+        margin-left: 130px;
+      }
+
+      #contractInput{
+        margin-left: 90px;
+      }
+
+      #managementInput{
+        margin-left: 40px;
+      }
+
+      #period{
+        margin-left: 110px;
+      }
+
+      #project{
+        margin-left: 15px;
+      }
+
+      .results table{
+        width: 37%;
+        margin-right: 265px;
+      }
+
+      .button{
+        margin-left:-100px;
+        width: 200px;
+        margin-top: 335px;
+        height: 40px;
+      }
+
+    }
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

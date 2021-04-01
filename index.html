@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="app.css"/>
     </head>
     <body>
-        <section className="section">
+        <section class="section">
             <div className="container">
             <div class="row">
 
@@ -83,7 +83,7 @@
                           </div>
                         </div>
       
-                        <div className="level-right">
+                        <div class="level-right">
                           <div className="level-item">
                             <div className="field">
                               <div className="range-slider">
@@ -111,7 +111,7 @@
                           <div className="level-item">
                             <div className="field">
                               <div className="control has-icons-left">
-                                <select class="input2" id="years" type="number" onchange="showPeriod()">
+                                <select class="input2" id="years" type="number" onchange="showPeriod()" required>
                                     <option>Select:</option>
                                     <option value="6">6 kuud</option>
                                     <option value="12">12 kuud</option>
@@ -152,7 +152,7 @@
                           <div className="level-item">
                             <div className="field">
                               <div className="control has-icons-right">
-                                <input class="input3" id="downPayment" type="number" onchange="projectPayment()"/>
+                                <input class="input3" id="downPayment" type="number" onchange="projectPayment()" required/>
                                 <span className="icon is-small is-right">
                                   <i className="fa fa-percentage"></i>
                                 </span>
